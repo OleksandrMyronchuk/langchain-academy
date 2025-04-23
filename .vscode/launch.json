@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Run",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/module-1/studio/calc.py",
+        //"program": "${workspaceFolder}/module-1/studio/simple.py",
+        //"program": "${workspaceFolder}/module-1/studio/routerv2.py",
+        //"program": "${workspaceFolder}/module-1/studio/router.py",
+        "python": "${workspaceFolder}/venv/Scripts/python.exe",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "env": {
+          "PYTHONPATH": "${workspaceFolder}"
+        }
+      },
+      {
+        "name": "Python: Current File",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "python": "${workspaceFolder}/venv/Scripts/python.exe",
+        "console": "integratedTerminal",
+        "justMyCode": true
+      }
+    ]
+  }
+  

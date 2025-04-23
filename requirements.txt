@@ -11,3 +11,5 @@ tavily-python
 wikipedia
 trustcall
 langgraph-cli[inmem]
+langchain-google-genai 
+google-generativeai

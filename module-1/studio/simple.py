@@ -45,5 +45,8 @@ builder.add_conditional_edges("node_1", decide_mood)
 builder.add_edge("node_2", END)
 builder.add_edge("node_3", END)
 
-# Compile graph
 graph = builder.compile()
+
+final_state = graph.invoke({"graph_state": ""})
+
+print("Final state:", final_state)
